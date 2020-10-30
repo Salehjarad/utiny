@@ -1,18 +1,11 @@
 import React from "react";
-import { Layout, Menu, Breadcrumb } from "antd";
-import {
-  UserOutlined,
-  LaptopOutlined,
-  NotificationOutlined,
-} from "@ant-design/icons";
-import { PageHeader, Button, Descriptions } from "antd";
+import { Layout, Menu } from "antd";
 
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import Home from "../pages/home";
 import Privacy from "../pages/privcey";
 import Support from "../pages/supoort";
-// import Nav from "./nav";
 
 const Nav = (props) => {
   const [route, setRoue] = React.useState("1");
